@@ -1,1 +1,1 @@
-# SSAFY Study 파일 업로드
+# Algorithm & CS Study 파일 업로드
