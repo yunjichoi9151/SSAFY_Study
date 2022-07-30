@@ -16,7 +16,7 @@ public class No_10814 {
 			for (int c = 0; c < 2; c++) {
 				list[r][c] = sc.next();
 				if (c == 0)
-					list[r][2] = "r";
+					list[r][2] = r + "";
 			}
 		}
 
@@ -26,7 +26,7 @@ public class No_10814 {
 			@Override
 			public int compare(String[] o1, String[] o2) {
 				if (o1[0].equals(o2[0])) {
-					return o1[2].compareTo(o2[2]);
+					return Integer.parseInt(o1[2]) - Integer.parseInt(o2[2]);
 				} else
 					return Integer.parseInt(o1[0]) - Integer.parseInt(o2[0]);
 			}
