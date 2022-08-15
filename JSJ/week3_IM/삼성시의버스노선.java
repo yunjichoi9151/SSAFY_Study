@@ -2,7 +2,7 @@ package week3_IM;
 
 import java.util.Scanner;
 
-public class N6485_삼성시의버스노선 {
+public class 삼성시의버스노선 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

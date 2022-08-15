@@ -3,7 +3,7 @@ package week3_IM;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class N1860_진기의최고급붕어빵 {
+public class 진기의최고급붕어빵 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
