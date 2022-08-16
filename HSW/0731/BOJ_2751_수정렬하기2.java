@@ -1,4 +1,4 @@
-package _20220731;
+package HSW._20220731;
 
 import java.util.Scanner;
 
