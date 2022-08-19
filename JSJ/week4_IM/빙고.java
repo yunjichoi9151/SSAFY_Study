@@ -27,11 +27,6 @@ public class 빙고 {
 			int k = sc.nextInt(); // 사회자가 부른 수
 			cnt++; // 사회자가 부를 때마다 카운트
 
-			// line이 3개 이상일 때 빙고
-			if (line >= 3) {
-				bingo = true;
-			}
-
 			// 빙고판 탐색
 			out: for (int i = 0; i < 5; i++) {
 				for (int j = 0; j < 5; j++) {
@@ -42,7 +37,6 @@ public class 빙고 {
 						// 해당 열 or 행 개수+1
 						count[0][i]++;
 						count[1][j]++;
-
 						// 대각선
 						if (i == j) {
 							Xcount[0]++;
@@ -52,13 +46,31 @@ public class 빙고 {
 						}
 
 						// 빙고일 때 line+1
-						if (count[0][i] == 5 || count[1][j] == 5 || Xcount[0] == 5 || Xcount[1] == 5) {
+						if (count[0][i] == 5) {
 							line++;
+							count[0][i] = 0;
+						}
+						if (count[1][j] == 5) {
+							line++;
+							count[1][j] = 0;
+						}
+						if (Xcount[0] == 5) {
+							line++;
+							Xcount[0] = 0;
+						}
+						if (Xcount[1] == 5) {
+							line++;
+							Xcount[1] = 0;
 						}
 
 						break out;
 					}
 				}
+			}
+
+			// line이 3개 이상일 때 빙고
+			if (line >= 3) {
+				bingo = true;
 			}
 
 		}
