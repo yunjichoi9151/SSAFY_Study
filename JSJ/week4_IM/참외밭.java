@@ -41,11 +41,12 @@ public class 참외밭 {
 			int dir2 = list.get((i + 1) % list.size())[0]; // 빠지는 면적 한 면
 			int dir3 = list.get((i + 2) % list.size())[0]; // 빠지는 면적 한 면
 
-			// ┓,┏,┗, ┛ 탐색 : 예외발생
+			// ┓,┏,┗, ┛ 탐색
 			if (dir1 == 3 && dir2 == 1 && dir3 == 3 || dir1 == 1 && dir2 == 4 && dir3 == 1
 					|| dir1 == 4 && dir2 == 2 && dir3 == 4 || dir1 == 2 && dir2 == 3 && dir3 == 2) {
 
-				minus = list.get((i + 1) % list.size())[1] * list.get((i + 2) % list.size())[1]; // 빠질 면적 계산
+				// 빠질 면적 계산
+				minus = list.get((i + 1) % list.size())[1] * list.get((i + 2) % list.size())[1];
 				break;
 			}
 		}
