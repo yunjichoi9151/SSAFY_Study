@@ -26,6 +26,7 @@ public class 색종이 {
 			w = sc.nextInt();
 			h = sc.nextInt();
 
+			// 색종이 범위만큼 해당 색종이 순서로 표시
 			for (int i = r; i < r + h; i++) {
 				for (int j = c; j < c + w; j++) {
 					board[i][j] = n;
@@ -38,7 +39,7 @@ public class 색종이 {
 
 			for (int i = 0; i < 1001; i++) {
 				for (int j = 0; j < 1001; j++) {
-					if (board[i][j] == n) {
+					if (board[i][j] == n) {	// 겹쳐진 부분은 다른 숫자로 덮였기 때문에 신경 X
 						cnt++;
 					}
 				}
