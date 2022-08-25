@@ -3,7 +3,7 @@ package week4_IM;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class 줄세우기 {
+public class 줄세우기 re{
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
