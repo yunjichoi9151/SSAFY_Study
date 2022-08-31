@@ -1,90 +1,60 @@
 package week6;
 
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Scanner;
 import java.util.Stack;
 
 public class 후위표기식 {
 
 	public static void main(String[] args) {
-
 		Scanner sc = new Scanner(System.in);
 
-		for (int t = 1; t <= 10; t++) {
+		String str = sc.next();
 
-			int n = sc.nextInt();
-			String s = sc.next();
-			Stack<Character> stk = new Stack<>();
-			String result = "";
+		Stack<Character> stack = new Stack<>();
 
-			for (int i = 0; i < s.length(); i++) {
-				char c = s.charAt(i);
-				if (c - '0' >= 0 && c - '0' <= 9) {
+		for (int i = 0; i < str.length(); i++) {
 
-					result += String.valueOf(c);
+			char c = str.charAt(i); // 현재 연산
 
-				} else if (c == ')') {
-					char last = stk.pop();
-					while (!stk.isEmpty() && last != '(') {
-						result += String.valueOf(last);
-						last = stk.pop();
-					}
+			if ('A' <= c && c <= 'Z') { // 숫자일때
+				System.out.print(c);
 
-				} else {
-					if (stk.isEmpty()) {
-						stk.push(c);
-					} else {
+			} else if (c == '(') { // 왼쪽 괄호
+				stack.push(c);
 
-						if (c == '(') {
-							stk.push(c);
-						} else if (rank(stk.peek()) > rank(c)) {
-							stk.push(c);
-						} else {
-							result += String.valueOf(stk.pop());
-							stk.push(c);
-						}
-
-					}
+			} else if (c == ')') { // 오른쪽 괄호
+				// 왼쪽괄호가 나올때까지 pop
+				while (!stack.isEmpty()) {
+					char tmp = stack.pop();
+					if (tmp == '(') // 왼쪽 괄호가 나오면 break
+						break;
+					System.out.print(tmp);
 				}
-			}
-			while (!stk.isEmpty()) {
-				result += String.valueOf(stk.pop());
-			}
 
-			Stack<Integer> stk2 = new Stack<Integer>();
-			for (int i = 0; i < result.length(); i++) {
-				char c = result.charAt(i);
-				if (c - '0' >= 0 && c - '0' <= 9) {
-					stk2.push(c - '0');
-				} else {
-					int op1 = stk2.pop();
-					int op2 = stk2.pop();
-					if (c == '*') {
-						stk2.push(op1 * op2);
-					} else if (c == '+') {
-						stk2.push(op1 + op2);
-					}
+			} else { // +, -, *, /
+				// 현재 연산의 우선순위가 이전 연산의 우선순위보다 작은 동안
+				while (!stack.isEmpty() && rank(c) <= rank(stack.peek())) {
+					System.out.print(stack.pop()); // 이전 연산 뽑아서 출력
 				}
+				// 현재 연산 넣기
+				stack.push(c);
 			}
-
-			System.out.println("#" + t + " " + stk2.pop());
 
 		}
 
+		// 연산 모두 출력
+		while (!stack.isEmpty())
+			System.out.print(stack.pop());
 	}
 
+	// 우선순위 판별
 	public static int rank(char c) {
 
-		if (c == '*' || c == '/')
+		if (c == '(') {
+			return 0;
+		} else if (c == '+' || c == '-') {
 			return 1;
-		else if (c == '+' || c == '-')
-			return 3;
-		else if (c == '(')
-			return 5;
-		else
-			return -1;
-
+		}
+		return 2;
 	}
-
 }
