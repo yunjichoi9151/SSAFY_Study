@@ -9,7 +9,7 @@ public class 리벤지오브피타고라스 {
 
 		while (true) {
 
-			long A = sc.nextInt(); // A<B
+			long A = sc.nextInt(); // A < B
 
 			if (A == 0) // 종료 조건
 				return;
