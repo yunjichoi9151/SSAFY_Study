@@ -16,7 +16,7 @@ public class 후위표기식 {
 
 			char c = str.charAt(i); // 현재 연산
 
-			if ('A' <= c && c <= 'Z') { // 숫자일때
+			if ('A' <= c && c <= 'Z') { // 알파벳일때
 				System.out.print(c);
 
 			} else if (c == '(') { // 왼쪽 괄호
