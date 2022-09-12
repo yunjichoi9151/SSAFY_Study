@@ -4,14 +4,14 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
+// 반례가 멀까,,ㅜ
 // 그래프가 주어졌을 때 트리의 개수를 세라
 public class 트리 {
 
 	static int n;
 	static int m;
 
-	static ArrayList<Integer>[] list;
-//	static int[] tree;
+	static ArrayList<Integer>[] list; // 인접리스트
 	static boolean[] check;
 
 	static int cnt;
@@ -46,50 +46,45 @@ public class 트리 {
 				int a = sc.nextInt();
 				int b = sc.nextInt();
 
-				list[a].add(b);
+				if (a < b)
+					list[a].add(b);
+				else
+					list[b].add(a);
 			}
-//			System.out.println(Arrays.deepToString(list));
 
+			System.out.println(Arrays.toString(list));
 			for (int i = 1; i <= n; i++) {
 				if (!check[i]) {
 					dfs(i);
 				}
 			}
 
-			System.out.println(cnt);
-
 			// 출력
 			print(T, cnt);
 
 		}
-
 	}
 
-	// 개수 초기화 조건?
 	static void dfs(int i) {
 
-		if (check[i]) {
-			cnt = 0;
+		if (check[i]) // 종료 조건
 			return;
-
-		} else if (list[i].isEmpty() && !check[i]) {
+		else if (list[i].isEmpty() && !check[i]) // 개수 증가 조건
 			cnt++;
-		}
 
-		check[i] = true;
-//		System.out.println(Arrays.toString(check));
-//		System.out.println(cnt);
+		check[i] = true; // 방문 표시
 
 		for (int v : list[i]) {
-			if (!check[v]) {
+			if (!check[v]) { // 미방문일 경우 재귀 실행
 				dfs(v);
+			} else { // 방문한 경우 (트리 자격 상실)
+				cnt = 0;
 			}
 		}
 	}
 
 	// 출력
 	static void print(int T, int cnt) {
-
 		System.out.print("Case " + T + ": ");
 		if (cnt == 0) {
 			System.out.println("No trees.");
