@@ -4,87 +4,75 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-// 반례가 멀까,,ㅜ
 // 그래프가 주어졌을 때 트리의 개수를 세라
 public class 트리 {
 
-	static int n;
-	static int m;
-
-	static ArrayList<Integer>[] list; // 인접리스트
-	static boolean[] check;
-
-	static int cnt;
+	static ArrayList<Integer>[] adj; // 인접리스트
+	static boolean[] check; // 방문 판별
+	static boolean flag; // 트리 판별
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		int T = 0; // tree > 1 일 때 출력용 TC
-
+		int T = 0;
 		while (true) {
 
-			T++;
+			int n = sc.nextInt(); // 정점 개수
+			int k = sc.nextInt(); // 간선 개수
 
-			n = sc.nextInt(); // 정점의 개수 (1 ~ n)
-			m = sc.nextInt(); // 간선의 개수
+			adj = new ArrayList[n + 1];
+			check = new boolean[n + 1];
 
-			// 종료 조건
-			if (n == 0) {
+			if (n == 0)
 				break;
+
+			for (int i = 0; i < n + 1; i++) {
+				adj[i] = new ArrayList<Integer>();
 			}
 
-			check = new boolean[n + 1]; // 트리 연결 check
-			list = new ArrayList[n + 1];
+			for (int i = 0; i < k; i++) {
+				int n1 = sc.nextInt(); // 정점1
+				int n2 = sc.nextInt(); // 정점2
+
+				adj[n1].add(n2);
+				adj[n2].add(n1);
+			}
+
+			System.out.println(Arrays.deepToString(adj));
+
+			int cnt = 0;
 			for (int i = 1; i <= n; i++) {
-				list[i] = new ArrayList<Integer>();
-			}
+				flag = false;
 
-			cnt = 0;
+				if (!check[i]) { // 정점을 방문하지 않았을 때
+					dfs(i, 0);
 
-			// m개의 간선
-			for (int i = 0; i < m; i++) {
-				int a = sc.nextInt();
-				int b = sc.nextInt();
-
-				if (a < b)
-					list[a].add(b);
-				else
-					list[b].add(a);
-			}
-
-			System.out.println(Arrays.toString(list));
-			for (int i = 1; i <= n; i++) {
-				if (!check[i]) {
-					dfs(i);
+					if (!flag) {
+						cnt++;
+					}
 				}
 			}
-
-			// 출력
-			print(T, cnt);
-
+			print(++T, cnt);
 		}
 	}
 
-	static void dfs(int i) {
+	static void dfs(int cur, int pre) {
 
-		if (check[i]) // 종료 조건
-			return;
-		else if (list[i].isEmpty() && !check[i]) // 개수 증가 조건
-			cnt++;
+		check[cur] = true; // 방문 처리
 
-		check[i] = true; // 방문 표시
-
-		for (int v : list[i]) {
-			if (!check[v]) { // 미방문일 경우 재귀 실행
-				dfs(v);
-			} else { // 방문한 경우 (트리 자격 상실)
-				cnt = 0;
+		// 현재 노드와 연결관계 노드 탐색
+		for (int v : adj[cur]) {
+			if (!check[v]) { // 방문 전일때
+				dfs(v, cur);
+			} else if (check[v] && v != pre) { // 사이클 존재
+				flag = true;
 			}
 		}
 	}
 
 	// 출력
 	static void print(int T, int cnt) {
+
 		System.out.print("Case " + T + ": ");
 		if (cnt == 0) {
 			System.out.println("No trees.");

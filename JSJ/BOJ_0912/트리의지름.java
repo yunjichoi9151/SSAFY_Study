@@ -3,69 +3,68 @@ package BOJ_0912;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-// 반례가 뭘까요,,
+// 시간초과
 public class 트리의지름 {
 
 	static int V;
-	static ArrayList<int[]>[] list; // 인접리스트
-	static boolean[] check;
-
-	static int l;
+	static ArrayList<Node>[] adj; // 인접리스트
+	static boolean[] visit;
 	static int max;
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
 		V = sc.nextInt(); // 트리 정점의 개수
-		list = new ArrayList[V + 1];
 
-		l = 0;
-		max = 0;
-
+		adj = new ArrayList[V + 1];
 		for (int i = 1; i <= V; i++) {
-			list[i] = new ArrayList<int[]>();
+			adj[i] = new ArrayList<Node>();
 		}
 
 		for (int i = 0; i < V; i++) {
-			int n = sc.nextInt(); // 정점 번호
+			int n1 = sc.nextInt(); // 정점 번호
+
 			while (true) {
-
-				int a = sc.nextInt(); // 연결된 정점 번호
-				if (a == -1) // 종료 조건
+				int n2 = sc.nextInt(); // 연결된 정점 번호
+				if (n2 == -1) // 종료 조건
 					break;
-				int b = sc.nextInt(); // 거리
+				int d = sc.nextInt(); // 거리
 
-				list[n].add(new int[] { a, b });
+				adj[n1].add(new Node(n2, d));
+				adj[n2].add(new Node(n1, d));
 			}
 		}
 
-		check = new boolean[V + 1];
+		max = 0;
 		for (int i = 1; i <= V; i++) {
-			if (!check[i]) {
-				dfs(i);
+			visit = new boolean[V + 1];
+			if (!visit[i]) {
+
+				dfs(i, 0);
 			}
 		}
-		
+
 		// 출력
 		System.out.println(max);
 	}
 
-	private static void dfs(int i) {
+	private static void dfs(int num, int dim) {
+		visit[num] = true;
 
-		// 종료 조건
-		if (check[i]) {
-			return;
-		}
-
-		check[i] = true;
-
-		for (int[] v : list[i]) {
-			if (!check[v[0]]) {
-				l = 0; // 새 경로 시작하면서 값 초기화
-				dfs(v[0]);
-				l += v[1]; // 빠져나오면서 l값 갱신
+		for (Node node : adj[num]) {
+			if (!visit[node.num]) {
+				dfs(node.num, dim + node.len);
 			}
-			max = Math.max(max, l); // 마지막에 max값 갱신
+		}
+		max = Math.max(max, dim);
+	}
+
+	static class Node {
+		int num, len;
+
+		public Node(int num, int len) {
+			this.num = num;
+			this.len = len;
 		}
 	}
 }
