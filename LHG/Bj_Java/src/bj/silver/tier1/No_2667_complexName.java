@@ -47,7 +47,7 @@ public class No_2667_complexName {
 			System.out.println(size.get(i));
 		}
 	}
-	
+	// bfs
 	static void findApartment(int r, int c) {
 		if (!checked[r][c]) {
 			
