@@ -47,8 +47,8 @@ public class Star11 {
 			return;
 		}
 		
-		starDraw (input / 2, dr, dc, h / 2, w / 2); // ��
-		starDraw (input / 2, dr, dc + w / 2 + 1, h / 2, w / 2); // ��
-		starDraw (input / 2, dr - h / 2, dc + (w + 1) / 4, h / 2, w / 2); // ��
+		starDraw (input / 2, dr, dc, h / 2, w / 2); // 왼쪽
+		starDraw (input / 2, dr, dc + w / 2 + 1, h / 2, w / 2); // 오른쪽
+		starDraw (input / 2, dr - h / 2, dc + (w + 1) / 4, h / 2, w / 2); // 위
 	}
 }
