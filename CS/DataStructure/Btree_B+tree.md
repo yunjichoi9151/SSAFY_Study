@@ -66,7 +66,7 @@ $key_{i-1} < T_i < key_i$
 
 1. 루트 노드부터 시작
 2. 노드의 여러 키 중 검색 키와 일치하는 것이 있는지 확인
-3. $key_{i-1}<x<key_i$인 두 키 $key_{i-1}$과 $key_i$를 찾아 분기해야 할 자식 노드를 찾음
+3.  ![](https://latex.codecogs.com/svg.image?%20key_%7Bi-1%7D%3Cx%3Ckey_i) 인 두 키 ![](https://latex.codecogs.com/svg.image?key_%7Bi-1%7D)과![](https://latex.codecogs.com/svg.image?key_i) 를 찾아 분기해야 할 자식 노드를 찾음
 4. 자식으로 분기하고 나면 깊이만 하나 내려간 똑같은 검색 문제(다시 자식 노드를 찾음) → 재귀적 과정
 
 ![Untitled](./img/Btree_4.png)
