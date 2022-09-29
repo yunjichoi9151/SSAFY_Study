@@ -3,7 +3,7 @@ CS
 # Computer Science
 
 ## Data Structure
-  - Array & ArrayList & LinkedList
+  - [Array & ArrayList & LinkedList](DataStructure/Array_ArrayList_LinkedList.md)
   - Stack & Queue
   - [Heap](DataStructure/Heap.md)
   - Tree & Binary Search Tree
