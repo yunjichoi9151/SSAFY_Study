@@ -83,6 +83,6 @@
 | 22.09.12 | Tree            | [1167](https://www.acmicpc.net/problem/1167), [4803](https://www.acmicpc.net/problem/4803), [11725](https://www.acmicpc.net/problem/11725) |    [BOJ](https://www.acmicpc.net/)   |
 | 22.09.14 | BFS, DFS        | [2606](https://www.acmicpc.net/problem/2606), [2667](https://www.acmicpc.net/problem/2667), [7576](https://www.acmicpc.net/problem/7576) |    [BOJ](https://www.acmicpc.net/)   |
 | 22.09.18 | BFS, DFS        | [5014](https://www.acmicpc.net/problem/5014), [9205](https://www.acmicpc.net/problem/9205), [13460](https://www.acmicpc.net/problem/13460) |    [BOJ](https://www.acmicpc.net/)   |
-| 22.09.21 | DP              | [1074](https://www.acmicpc.net/problem/1074), [2448](https://www.acmicpc.net/problem/2448), [10830](https://www.acmicpc.net/problem/10830) |    [BOJ](https://www.acmicpc.net/)   |
+| 22.09.21 | Divide And Conquer | [1074](https://www.acmicpc.net/problem/1074), [2448](https://www.acmicpc.net/problem/2448), [10830](https://www.acmicpc.net/problem/10830) |    [BOJ](https://www.acmicpc.net/)   |
 | 22.09.25 | DP              | [1149](https://www.acmicpc.net/problem/1149), [9184](https://www.acmicpc.net/problem/9184), [12865](https://www.acmicpc.net/problem/12865), [17069](https://www.acmicpc.net/problem/17069) |    [BOJ](https://www.acmicpc.net/)   |
 | 22.09.28 | DP              | [2565](https://www.acmicpc.net/problem/2565), [2579](https://www.acmicpc.net/problem/2579), [11053](https://www.acmicpc.net/problem/11053), [11054](https://www.acmicpc.net/problem/11054) |    [BOJ](https://www.acmicpc.net/)   |
