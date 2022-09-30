@@ -100,10 +100,7 @@
     int[] arr = new int[][] {{1, 2, 3}, {4, 5, 6}};
     int[] arr = {{1, 2, 3}, {4, 5, 6}};
     
-    int[] arr = {
-    		{1, 2, 3},
-        {4, 5, 6}
-    };
+    int[] arr = {{1, 2, 3}, {4, 5, 6}};
     
     // 이중 for문을 통해 초기화 (2차원 배열 arr의 모든 요소 10으로 초기화)
     for(int i = 0; i < arr.length; i++) {
@@ -208,12 +205,12 @@
             }
             System.out.println(numbers);
      
-    				// 2. for each
+    		// 2. for each
             for (int value : numbers) {
                 System.out.println(value);
             }
     
-    				// 3. for
+    		// 3. for
             for (int i = 0; i < numbers.size(); i++) {
                 System.out.println(numbers.get(i));
             }
@@ -414,7 +411,7 @@
                 addFirst(input);
             } else {
     
-    						// k-1번째 노드를 temp1로 지정합니다.
+    			// k-1번째 노드를 temp1로 지정합니다.
                 Node temp1 = node(k - 1);
                 // k 번째 노드를 temp2로 지정합니다.
                 Node temp2 = temp1.next;
@@ -441,7 +438,7 @@
             }
         }
      
-    		// 첫번째 노드 삭제
+    	// 첫번째 노드 삭제
         public Object removeFirst() {
             // 첫번째 노드를 temp로 지정하고 head의 값을 두번째 노드로 변경합니다.
             Node temp = head;
@@ -456,7 +453,7 @@
             return returnData;
         }
      
-    		// 검색
+    	// 검색
         public int indexOf(Object data) {
             // 탐색 대상이 되는 노드를 temp로 지정합니다.
             Node temp = head;
