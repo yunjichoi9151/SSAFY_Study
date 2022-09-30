@@ -1,12 +1,7 @@
-# 자료구조
-
-[참고](https://www.notion.so/b29ee0fc8740429292a4cc36bc641bcb)
 
 # Array & ArrayList & LinkedList
 
 # Array
-
----
 
 ![Untitled](./img/Array_ArrayList_LinkedList_1.png)
 
@@ -92,7 +87,7 @@
     **2차원 배열의 선언과 인덱스**
     
     - 테이블 형태의 데이터를 담는데 주로 사용
-    - index 범위 : '행index' = '0~행의길이-1' / '열index' = '0~열의길이-1' ('배열이름[행index][열index]')
+    - index 범위 : '행index' = '0 &#126; 행의길이-1' / '열index' = '0 &#126; 열의길이-1' ('배열이름[행index][열index]')
     
     ```java
      int[][] score = new int[4][3];
@@ -143,8 +138,6 @@
     
 
 # ArrayList
-
----
 
 ![Untitled](./img/Array_ArrayList_LinkedList_1.png)
 
@@ -200,12 +193,12 @@
             System.out.println("\nindexOf()");
             System.out.println(numbers.indexOf(30));
      
-    				// 반복 
-    				// 1. Iterator - 객체지향 프로그래밍에서 주로 사용
+    		// 반복 
+    		// 1. Iterator - 객체지향 프로그래밍에서 주로 사용
             Iterator it = numbers.iterator();  // Iterator 객체 생성
-    				// iterator : numbers의 객체 내부에 저장된 값을 하나씩 순회하면서 탐색하도록 함       
+    		// iterator : numbers의 객체 내부에 저장된 값을 하나씩 순회하면서 탐색하도록 함       
     				
-    				while (it.hasNext()) {  
+    		while (it.hasNext()) {  
                 int value = (int) it.next();
     						// 순회 과정에서 필요에 따라 요소 추가/삭제
                 if (value == 30) {
@@ -232,8 +225,6 @@
     
 
 # LinkedList
-
----
 
 ![Untitled](./img/Array_ArrayList_LinkedList_4.png)
 
@@ -487,8 +478,6 @@
     
 
 # Array vs ArrayList vs LinkedList
-
----
 
 |  | 조회 | 추가/삭제 | 유동적 |
 | --- | --- | --- | --- |
