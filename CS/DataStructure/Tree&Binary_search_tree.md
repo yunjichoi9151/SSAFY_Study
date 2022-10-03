@@ -14,11 +14,7 @@
 
 ![선형 구조 [https://osy0907.tistory.com/84](https://osy0907.tistory.com/84)](./img/Tree&Binary_search_tree.png)
 
-선형 구조 [https://osy0907.tistory.com/84](https://osy0907.tistory.com/84)
-
 ![비-선형 구조 [https://osy0907.tistory.com/84](https://osy0907.tistory.com/84)](./img/Tree&Binary_search_tree 1.png)
-
-비-선형 구조 [https://osy0907.tistory.com/84](https://osy0907.tistory.com/84)
 
 | Point | 선형 구조 | 비-선형 구조 |
 | --- | --- | --- |
@@ -33,8 +29,6 @@
 
 ![[https://kangworld.tistory.com/37](https://kangworld.tistory.com/37)](./img/Tree&Binary_search_tree 2.png)
 
-[https://kangworld.tistory.com/37](https://kangworld.tistory.com/37)
-
 | 구분 | 트리(Tree) | 그래프(Graph) |
 | --- | --- | --- |
 | 정의 | 그래프의 한 종류, 방향성이 없으며 순환하지 않음 | 객체 혹은 노드(Node)와 그것을 연결하는 간선(Edge)으로 모인 구조 |
@@ -48,8 +42,6 @@
 ### 트리의 구조
 
 ![[https://hongjw1938.tistory.com/18](https://hongjw1938.tistory.com/18)](./img/Tree&Binary_search_tree 3.png)
-
-[https://hongjw1938.tistory.com/18](https://hongjw1938.tistory.com/18)
 
 | 이름 | 설명 | 위 그림 기반 예시 |
 | --- | --- | --- |
