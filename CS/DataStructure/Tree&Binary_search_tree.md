@@ -27,7 +27,7 @@
 
 ### 그래프와 트리의 차이
 
-![[https://kangworld.tistory.com/37](https://kangworld.tistory.com/37)](./img/Tree&Binary_search_tree 2.png)
+![[https://kangworld.tistory.com/37](https://kangworld.tistory.com/37)](./img/Tree&Binary_search_tree_2.png)
 
 | 구분 | 트리(Tree) | 그래프(Graph) |
 | --- | --- | --- |
