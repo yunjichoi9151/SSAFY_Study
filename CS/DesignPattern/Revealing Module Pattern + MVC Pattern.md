@@ -74,7 +74,7 @@
 3. 그러나 JAVA코드, 데이터 조회 리포지토리 등 다양한 코드가 JSP에 노출되어 있으며, JSP가 너무 많은 역할을 하는 문제점을 가짐
 4. 이를 해결하기 위해 몰려있는 역할을 나누어 처리하는 방법인 MVC패턴이 등장하게 됨
 
-![Untitled](./image/MVC패턴_1.png)
+![Untitled](./img/MVC패턴_1.png)
 
 ### **MVC**
 
@@ -101,7 +101,7 @@
 
 사용자 → Controller 조작 → Model을 통해 데이터를 가져옴 → View제어 → 사용자
 
-![Untitled](./image/MVC패턴_2.png)
+![Untitled](./img/MVC패턴_2.png)
 
 **Web에 MVC 패턴 적용**
 
@@ -132,9 +132,9 @@
 
 호출 전에 공통 기능을 처리하기 위한 수문장의 역할을 하는 기능을 도입한 패턴
 
-![Untitled](./image/MVC패턴_3.png)
+![Untitled](./img/MVC패턴_3.png)
 
-![Untitled](./image/MVC패턴_4.png)
+![Untitled](./img/MVC패턴_4.png)
 
 **참고링크**
 
