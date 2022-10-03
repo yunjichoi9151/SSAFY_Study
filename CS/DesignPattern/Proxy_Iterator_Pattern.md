@@ -1,30 +1,3 @@
-# 디자인패턴 정리
-
-## 디자인패턴이란 무엇인가?
-
-- 소프트웨어를 설계할 때 자주 발생하는 고질적인 문제들을 해결하기 위한 “패턴”
-
-## 디자인패턴의 종류
-
-### 생성 패턴(Creational Pattern)
-
-- 객체 생성에 관련된 패턴
-- 객체 생성, 조합을 캡슐화해서 객체가 생성되거나 변경되어도 프로그램 구조에 영향을 크게 받지 않도록 유연성을 제공함
-
-### 구조 패턴(Structural Pattern)
-
-- 클래스나 객체를 조합해 더 큰 구조를 만드는 패턴
-- 객체끼리 묶어서 새로운 기능을 제공함
-
-### 행위 패턴(Behavioral Pattern)
-
-- 객체나 클래스 사이의 알고리즘이나 책임 분배에 관련된 패턴
-- 한 객체가 수행할 수 없는 작업을 여러 객체로 분배하는 방법, 객체 사이의 결합도를 최소로 하면서 분배하는 방법 등을 다룸
-
-![출처 : [https://coding-factory.tistory.com/708](https://coding-factory.tistory.com/708)](%E1%84%83%E1%85%B5%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%91%E1%85%A2%E1%84%90%E1%85%A5%E1%86%AB%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%2083ff24ac2d4b4804bb082935a637b82b/pattern.jpg)
-
-출처 : [https://coding-factory.tistory.com/708](https://coding-factory.tistory.com/708)
-
 # Proxy Pattern
 
 **Structural Design Pattern**
