@@ -12,7 +12,7 @@
 
 ### 선형 구조와 비-선형 구조의 차이
 
-![선형 구조 [https://osy0907.tistory.com/84](https://osy0907.tistory.com/84)](./img/Tree&Binary_search_tree.png)
+![선형 구조](./img/Tree&Binary_search_tree.png)
 
 ![비-선형 구조 [https://osy0907.tistory.com/84](https://osy0907.tistory.com/84)](./img/Tree&Binary_search_tree_1.png)
 
