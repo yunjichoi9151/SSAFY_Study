@@ -13,7 +13,7 @@
 발행/구독 모델로 알려져 있기도 하다.
 > 
 
-![Untitled](.img/Observer_pattern.png)
+![Untitled](./img/Observer_pattern.png)
 
 ### 그냥 메서드로 구현하면 안되나요?
 
