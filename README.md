@@ -16,7 +16,6 @@
 | 이름   | GitHub                                         |
 | ------ | ---------------------------------------------- |
 | 최윤지 | [@yunjichoi9151](https://github.com/yunjichoi9151) |
-| 이해건 | [@Supreme-ignorance](https://github.com/Supreme-ignorance) |
 | 신희수 | [@mg-glter](https://github.com/mg-glter) |
 | 조수정 | [@suz-dev](https://github.com/suz-dev) |
 | 이윤경 | [@yxxnkxx](https://github.com/yxxnkxx) |
@@ -26,9 +25,6 @@
 <p>
 <a href="https://github.com/yunjichoi9151">
   <img src="https://github.com/yunjichoi9151.png" width="100">
-</a>
-<a href="https://github.com/Supreme-ignorance">
-  <img src="https://github.com/Supreme-ignorance.png" width="100">
 </a>
 <a href="https://github.com/mg-glter">
   <img src="https://github.com/mg-glter.png" width="100">
@@ -46,6 +42,8 @@
   <img src="https://github.com/YounghyunS2.png" width="100">
 </a>
 </p>
+
+Before : 이해건([@Supreme-ignorance](https://github.com/Supreme-ignorance))
 
 ---
 
