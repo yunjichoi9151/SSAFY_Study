@@ -13,7 +13,7 @@
 - 각 알고리즘을 캡슐화하며
 - 이 알고리즘들을 해당 계열 안에서 상호 교체가 가능하게 만든다.
 
-![Untitled](.img/Strategy_pattern.png)
+![Untitled](./img/Strategy_pattern.png)
 
 무인 판매 음료 매장을 운영한다고 생각해보자.
 
