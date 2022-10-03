@@ -41,7 +41,7 @@
 
 ### 트리의 구조
 
-![[https://hongjw1938.tistory.com/18](https://hongjw1938.tistory.com/18)](./img/Tree&Binary_search_tree 3.png)
+![[https://hongjw1938.tistory.com/18](https://hongjw1938.tistory.com/18)](./img/Tree&Binary_search_tree_3.png)
 
 | 이름 | 설명 | 위 그림 기반 예시 |
 | --- | --- | --- |
@@ -57,7 +57,7 @@
 
 ### 다음은 트리일까?
 
-![[https://ratsgo.github.io/data structure&algorithm/2017/10/21/tree/](https://ratsgo.github.io/data%20structure&algorithm/2017/10/21/tree/)](./img/Tree&Binary_search_tree 4.png)
+![[https://ratsgo.github.io/data structure&algorithm/2017/10/21/tree/](https://ratsgo.github.io/data%20structure&algorithm/2017/10/21/tree/)](./img/Tree&Binary_search_tree_4.png)
 
 [https://ratsgo.github.io/data structure&algorithm/2017/10/21/tree/](https://ratsgo.github.io/data%20structure&algorithm/2017/10/21/tree/)
 
@@ -67,7 +67,7 @@
 
 이진 트리는 트리 구조의 자료 형태 중에서도 가장 많이 쓰이는 트리입니다. 그 이유로는 이진 트리는 1차원 배열로 표현이 가능하기 때문입니다.
 
-![[https://ratsgo.github.io/data structure&algorithm/2017/10/21/tree/](https://ratsgo.github.io/data%20structure&algorithm/2017/10/21/tree/)](./img/Tree&Binary_search_tree 5.png)
+![[https://ratsgo.github.io/data structure&algorithm/2017/10/21/tree/](https://ratsgo.github.io/data%20structure&algorithm/2017/10/21/tree/)](./img/Tree&Binary_search_tree_5.png)
 
 [https://ratsgo.github.io/data structure&algorithm/2017/10/21/tree/](https://ratsgo.github.io/data%20structure&algorithm/2017/10/21/tree/)
 
@@ -80,7 +80,7 @@ right_index = 2 * index + 2
 
 - 전위 순회(preorder)
     
-    ![[https://hongjw1938.tistory.com/18](https://hongjw1938.tistory.com/18)](./img/Tree&Binary_search_tree 6.png)
+    ![[https://hongjw1938.tistory.com/18](https://hongjw1938.tistory.com/18)](./img/Tree&Binary_search_tree_6.png)
     
     [https://hongjw1938.tistory.com/18](https://hongjw1938.tistory.com/18)
     
@@ -96,7 +96,7 @@ right_index = 2 * index + 2
     
 - 중위 순회(inorder)
     
-    ![[https://hongjw1938.tistory.com/18](https://hongjw1938.tistory.com/18)](./img/Tree&Binary_search_tree 7.png)
+    ![[https://hongjw1938.tistory.com/18](https://hongjw1938.tistory.com/18)](./img/Tree&Binary_search_tree_7.png)
     
     [https://hongjw1938.tistory.com/18](https://hongjw1938.tistory.com/18)
     
@@ -112,7 +112,7 @@ right_index = 2 * index + 2
     
 - 후위 순회(postorder)
     
-    ![[https://hongjw1938.tistory.com/18](https://hongjw1938.tistory.com/18)](./img/Tree&Binary_search_tree 8.png)
+    ![[https://hongjw1938.tistory.com/18](https://hongjw1938.tistory.com/18)](./img/Tree&Binary_search_tree_8.png)
     
     [https://hongjw1938.tistory.com/18](https://hongjw1938.tistory.com/18)
     
@@ -132,7 +132,7 @@ right_index = 2 * index + 2
     
 - 레벨 순회(levelorder)
     
-    ![[https://hongjw1938.tistory.com/18](https://hongjw1938.tistory.com/18)](./img/Tree&Binary_search_tree 9.png)
+    ![[https://hongjw1938.tistory.com/18](https://hongjw1938.tistory.com/18)](./img/Tree&Binary_search_tree_9.png)
     
     [https://hongjw1938.tistory.com/18](https://hongjw1938.tistory.com/18)
     
@@ -392,7 +392,7 @@ right_index = 2 * index + 2
 3. 루트 노드의 오른쪽 서브 트리는 해당 노드의 키보다 큰 키를 갖는 노드들로 이루어져 있다.
 4. 좌우 서브 트리도 모두 이진 탐색 트리여야 한다.
 
-![[https://code-lab1.tistory.com/10](https://code-lab1.tistory.com/10)](./img/Tree&Binary_search_tree 10.png)
+![[https://code-lab1.tistory.com/10](https://code-lab1.tistory.com/10)](./img/Tree&Binary_search_tree_10.png)
 
 [https://code-lab1.tistory.com/10](https://code-lab1.tistory.com/10)
 
@@ -408,7 +408,7 @@ right_index = 2 * index + 2
 2. 찾고자 하는 값이 루트 노드의 키보다 작다면 왼쪽 서브 트리로 탐색을 진행한다.
 3. 찾고자 하는 값이 루트 노드의 키보다 크다면 오른쪽 서브 트리로 탐색을 진행한다.
 
-![[https://code-lab1.tistory.com/10](https://code-lab1.tistory.com/10)](./img/Tree&Binary_search_tree 11.png)
+![[https://code-lab1.tistory.com/10](https://code-lab1.tistory.com/10)](./img/Tree&Binary_search_tree_11.png)
 
 [https://code-lab1.tistory.com/10](https://code-lab1.tistory.com/10)
 
