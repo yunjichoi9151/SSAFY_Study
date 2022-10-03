@@ -14,8 +14,8 @@ CS
 ## Design Pattern
   - [Singleton Pattern](DesignPattern/Singleton%20Pattern%20+%20Factory%20Pattern.md)
   - [Factory Pattern](DesignPattern/Singleton%20Pattern%20+%20Factory%20Pattern.md)
-  - [Strategy Pattern](DesignPattern/Observer_pattern.md)
-  - [Observer Pattern](DesignPattern/Strategy_pattern.md)
+  - [Strategy Pattern](DesignPattern/Strategy_pattern.md)
+  - [Observer Pattern](DesignPattern/Observer_pattern.md)
   - [Proxy Pattern](DesignPattern/ProxyPattern.md)
   - [Iterator Pattern](DesignPattern/IteratorPattern.md)
   - Revealing Module Pattern
