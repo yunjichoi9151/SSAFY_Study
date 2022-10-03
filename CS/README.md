@@ -12,8 +12,8 @@ CS
   - [Trie](./DataStructure/Trie.md)
 
 ## Design Pattern
-  - [Singleton Pattern](DesignPattern/SingletonPattern+FactoryPattern.md)
-  - [Factory Pattern](DesignPattern/SingletonPattern+FactoryPattern.md)
+  - [Singleton Pattern](DesignPattern/Singleton%20Pattern%20+%20Factory%20Pattern.md)
+  - [Factory Pattern](DesignPattern/Singleton%20Pattern%20+%20Factory%20Pattern.md)
   - [Strategy Pattern](DesignPattern/Observer_pattern.md)
   - [Observer Pattern](DesignPattern/Strategy_pattern.md)
   - [Proxy Pattern](DesignPattern/ProxyPattern.md)
