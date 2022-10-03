@@ -14,7 +14,7 @@
 
 ![선형 구조 [https://osy0907.tistory.com/84](https://osy0907.tistory.com/84)](./img/Tree&Binary_search_tree.png)
 
-![비-선형 구조 [https://osy0907.tistory.com/84](https://osy0907.tistory.com/84)](./img/Tree&Binary_search_tree 1.png)
+![비-선형 구조 [https://osy0907.tistory.com/84](https://osy0907.tistory.com/84)](./img/Tree&Binary_search_tree_1.png)
 
 | Point | 선형 구조 | 비-선형 구조 |
 | --- | --- | --- |
