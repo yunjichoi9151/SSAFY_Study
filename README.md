@@ -43,7 +43,7 @@
 </a>
 </p>
 
-Thanks To : 이해건([@Supreme-ignorance](https://github.com/Supreme-ignorance))
+Thanks to : 이해건([@Supreme-ignorance](https://github.com/Supreme-ignorance))
 
 ---
 
