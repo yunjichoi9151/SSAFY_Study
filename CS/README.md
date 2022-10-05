@@ -18,8 +18,8 @@ CS
   - [Observer Pattern](DesignPattern/Observer_pattern.md)
   - [Proxy Pattern](DesignPattern/ProxyPattern.md)
   - [Iterator Pattern](DesignPattern/IteratorPattern.md)
-  - [Revealing Module Pattern](DesignPattern/RevealingModulePattern%20MVCPattern.md)
-  - [MVC Pattern](DesignPattern/RevealingModulePattern%20MVCPattern.md)
+  - [Revealing Module Pattern](DesignPattern/Revealing%20Module%20Pattern%20+%20MVC%20Pattern.md)
+  - [MVC Pattern](DesignPattern/Revealing%20Module%20Pattern%20+%20MVC%20Pattern.md)
 ## Network
 
 ## OS
