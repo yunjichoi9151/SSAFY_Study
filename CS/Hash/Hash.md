@@ -1,6 +1,7 @@
 # Hash
 
-![images_deannn_post_c43676f2-7e08-474a-ab7a-adaa25c145bb_hash.png](%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%206a98601971254943b7eae2f71c246deb/images_deannn_post_c43676f2-7e08-474a-ab7a-adaa25c145bb_hash.png)
+![images_Hash1.png]
+(Hash1.png)
 
 해시 함수 : 임의의 길이의 데이터를 고정된 길이의 데이터로 매핑하는 함수
 
@@ -14,7 +15,7 @@
 
 해시값이 중복 → 해시 충돌(Collision)
 
-![images_deannn_post_23f2bfda-e9f7-42fa-adff-00cf3d11182c_이미지 2021. 10. 21. 오후 3.16.jpg](%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%206a98601971254943b7eae2f71c246deb/images_deannn_post_23f2bfda-e9f7-42fa-adff-00cf3d11182c_%25EC%259D%25B4%25EB%25AF%25B8%25EC%25A7%2580_2021._10._21._%25EC%2598%25A4%25ED%259B%2584_3.16.jpg)
+![images_Hash2.jpg](Hash2.jpg)
 
 Hash Function의 특징
 
@@ -63,7 +64,7 @@ Hash Table (해시 테이블)
 
 -Linear Probing (선형 조사)
 
-![D1WrmZE.png](%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%206a98601971254943b7eae2f71c246deb/D1WrmZE.png)
+![Hash3.png](Hash3.png)
 
 최초 해시값에 해당하는 버킷에 다른 데이터가 저장되어 있으면 해당 해시값에서 고정 폭만큼 옮겨가면서 다음 해시값에 해당하는 버킷에 데이터가 있는지 확인. 데이터가 없는 버킷을 찾으면 해당 버킷에 저장.
 
@@ -71,7 +72,7 @@ Hash Table (해시 테이블)
 
 -Quadratic Probing (제곱 조사)
 
-![KqvA9b9.png](%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%206a98601971254943b7eae2f71c246deb/KqvA9b9.png)
+![Hash4.png](Hash4.png)
 
 이동 폭이 제곱수로 늘어남. 여러 개의 다른 키들이 모두 동일한 초기 해시값을 갖고 있는 Secondary Clustering에 취약함.
 
@@ -109,4 +110,4 @@ Key-Value 쌍의 개수로 판단
 
 데이터 개수가 적으면 연결리스트 사용이 유리
 
-![Screenshot_20220810-203617_Notion.jpg](%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%206a98601971254943b7eae2f71c246deb/Screenshot_20220810-203617_Notion.jpg)
+![Hash5.jpg](Hash5.jpg)
