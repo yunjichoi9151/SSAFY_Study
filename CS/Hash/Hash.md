@@ -1,7 +1,6 @@
 # Hash
 
-![images_Hash1.png]
-(Hash1.png)
+![images_Hash1.png](Hash1.png)
 
 해시 함수 : 임의의 길이의 데이터를 고정된 길이의 데이터로 매핑하는 함수
 
