@@ -43,7 +43,7 @@
 </a>
 </p>
 
-Before : 이해건([@Supreme-ignorance](https://github.com/Supreme-ignorance))
+Thanks To : 이해건([@Supreme-ignorance](https://github.com/Supreme-ignorance))
 
 ---
 
@@ -84,3 +84,4 @@ Before : 이해건([@Supreme-ignorance](https://github.com/Supreme-ignorance))
 | 22.09.21 | Divide And Conquer | [1074](https://www.acmicpc.net/problem/1074), [2448](https://www.acmicpc.net/problem/2448), [10830](https://www.acmicpc.net/problem/10830) |    [BOJ](https://www.acmicpc.net/)   |
 | 22.09.25 | DP              | [1149](https://www.acmicpc.net/problem/1149), [9184](https://www.acmicpc.net/problem/9184), [12865](https://www.acmicpc.net/problem/12865), [17069](https://www.acmicpc.net/problem/17069) |    [BOJ](https://www.acmicpc.net/)   |
 | 22.09.28 | DP              | [2565](https://www.acmicpc.net/problem/2565), [2579](https://www.acmicpc.net/problem/2579), [11053](https://www.acmicpc.net/problem/11053), [11054](https://www.acmicpc.net/problem/11054) |    [BOJ](https://www.acmicpc.net/)   |
+| 22.10.05 | Kruskal, Prim, Dijkstra | [1774](https://www.acmicpc.net/problem/1774) | [1976](https://www.acmicpc.net/problem/1976) | [4386](https://www.acmicpc.net/problem/4386) | [9370](https://www.acmicpc.net/problem/9370) | [11657](https://www.acmicpc.net/problem/11657) | [13549](https://www.acmicpc.net/problem/13549) |
