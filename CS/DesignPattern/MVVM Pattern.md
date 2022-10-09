@@ -2,13 +2,13 @@
 
 ## 특징
 
-MVC의 C에 해당하는 컨트롤러가 **뷰모델(view model)**로 바뀐 패턴
+MVC의 C에 해당하는 컨트롤러가 **뷰모델(view model)** 로 바뀐 패턴
 
 ![098733E3-C601-4B01-99B3-118C9E06B835.jpeg](./img/mvvmpattern1.jpeg)
 
 뷰 모델: 뷰를 더 추상화한 계층
 
-**커맨드(command)**: 여러 가지 요소에 대한 처리를 하나의 액션으로 처리
+**커맨드(command)** : 여러 가지 요소에 대한 처리를 하나의 액션으로 처리
 
 ```java
 /*the Invoker class*/
