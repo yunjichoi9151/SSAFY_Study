@@ -20,6 +20,8 @@ CS
   - [Iterator Pattern](DesignPattern/IteratorPattern.md)
   - [Revealing Module Pattern](DesignPattern/Revealing%20Module%20Pattern%20+%20MVC%20Pattern.md)
   - [MVC Pattern](DesignPattern/Revealing%20Module%20Pattern%20+%20MVC%20Pattern.md)
+  - [MVP Pattern](DesignPattern/MVP%20Pattern.md)
+  - [MVVM Pattern](DesignPattern/MVVM%20Pattern.md)
 ## Network
 
 ## OS
