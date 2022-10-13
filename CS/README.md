@@ -24,7 +24,7 @@ CS
   - [MVVM Pattern](DesignPattern/MVVM%20Pattern.md)
   - [Functional Programming](DesignPattern/Functional_Programming.md)
   - [Object Oriented Programming](DesignPattern/Object_Oriented_Programming.md)
-  - [Procedural Programming](DesignPattern/Procedural Programming.md)
+  - [Procedural Programming](DesignPattern/Procedural%20Programming.md)
   
 ## Network
 
