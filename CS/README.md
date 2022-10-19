@@ -1,5 +1,3 @@
-CS
-
 # Computer Science
 
 ## Data Structure
