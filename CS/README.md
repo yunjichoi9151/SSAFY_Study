@@ -27,7 +27,8 @@ CS
   - [Procedural Programming](DesignPattern/Procedural%20Programming.md)
   
 ## Network
-
+  - [Network](Network/Network.md)
+  - [IP%20Address](Network/IP%20Address.md)
 ## OS
 
 ## Database
