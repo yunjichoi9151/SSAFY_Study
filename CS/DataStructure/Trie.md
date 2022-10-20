@@ -1,7 +1,5 @@
 # Trie
 
-# Trie
-
 Trie 란?
 
 ![Untitled](./img/Trie1.png)
