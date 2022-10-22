@@ -4,14 +4,14 @@
 
 ## 2.2.1 계층 구조
 
-![Untitled](/img/ch2.2-1.png)
+![Untitled](./img/ch2.2-1.png)
 
 - OSI 7계층
     - TCP/IP 4계층의 **애플리케이션 계층**을 3개로 나눔
     - **링크 계층**을 데이터 링크, 물리 계층으로 나눔
     - **인터넷 계층** → 네트워크 계층
 
-![Untitled](/img/ch2.2-2.png)
+![Untitled](./img/ch2.2-2.png)
 
 **애플리케이션 계층**
 
@@ -35,7 +35,7 @@
         - 연결지향 프로토콜 사용 → 신뢰성 구축
         - 가상회선 패킷 교환 방식 사용
         
-        ![Untitled](/img/ch2.2-3.png)
+        ![Untitled](./img/ch2.2-3.png)
         
     - **UDP (User Datagram Protocol)**
         - 기능 거의 없지만 단순하고 빠름
@@ -43,12 +43,12 @@
         - **패킷이 독립적으로 이동**하며 최적 경로 선택 → 도착 순서 다를 수 있음
         - 데이터그램 패킷 교환 방식 사용 (단순 데이터 전송)
         
-        ![Untitled](/img/ch2.2-4.png)
+        ![Untitled](./img/ch2.2-4.png)
         
 
 - **TCP 연결 성립 과정 (3-way handshake)**
     
-    ![Untitled](/img/ch2.2-5.png)
+    ![Untitled](./img/ch2.2-5.png)
     
     1. SYN 단계 
         - 클라이언트 : 클라언트의 ISN을 담아 서버에 SYN을 보냄
@@ -58,14 +58,14 @@
     3. ACK 단계
         - 클라이언트 : 서버의 ISN+1  값인 승인번호를 담아 ACK를 서버에 보냄
     
-    ![Untitled](/img/ch2.2-6.png)
+    ![Untitled](./img/ch2.2-6.png)
     
-    ![Untitled](/img/ch2.2-7.png)
+    ![Untitled](./img/ch2.2-7.png)
     
 
 - **TCP 연결 해제 과정 (4-way hanshake)**
     
-    ![Untitled](/img/ch2.2-8.png)
+    ![Untitled](./img/ch2.2-8.png)
     
     1. 클라이언트 
         - 연결 닫기 위해 FIN으로 설정된 세그먼트 전송
@@ -91,13 +91,13 @@
 - 비연결형적 특징 (상대받의 정상수신 여부 확인 X)
 - IP, ARP, ICMP ..
     
-    ![Untitled](/img/ch2.2-9.png)
+    ![Untitled](./img/ch2.2-9.png)
     
     - TCP/UDP : 데이터 송수신 기능 수행 (특별 환경에서 IP 프로토콜 직접 사용)
     - ICMP, ARP/RARP : 같은 계층에 속하는 IP 프로토콜의 도움을 받음
     - IP : 사용자 데이터 전송 프로토콜
     
-    ![Untitled](/img/ch2.2-10.png)
+    ![Untitled](./img/ch2.2-10.png)
     
 
 **링크 계층**
@@ -112,18 +112,18 @@
         - 양쪽 장치가 동시에 송수신 가능 방식
         - 송신로와 수신로로 나누어 데이터 전송
         
-        ![Untitled](/img/ch2.2-11.png)
+        ![Untitled](./img/ch2.2-11.png)
         
     - 유선LAN을 이루는 케이블 종류
         - 트위스트 페어 케이블(twisted pair cable) : 하나의 케이블처럼 보이지만 실제로는 여덟 개의 구리선을 두 개씩 꼬아서 묶은 케이블
             
-            ![Untitled](/img/ch2.2-12.png)
+            ![Untitled](./img/ch2.2-12.png)
             
             - 케이블
                 - UTP 케이블 : 구리선 실드 처리 X
                 - STP 케이블 : 실드 처리 O
                 
-                ![Untitled](/img/ch2.2-13.png)
+                ![Untitled](./img/ch2.2-13.png)
                 
             - 광섬유 케이블
                 - 광섬유로 만든 케이블
@@ -133,7 +133,7 @@
         - 송수신에 같은 채널을 사용하기 때문에 반이중화 통신 사용
             - 반이중화(half duplex) 통신 : 양쪽 장치 서로 통신 가능 but 동시 통신 불가능, 한번에 한 방향만 통신 가능
                 
-                ![Untitled](/img/ch2.2-14.png)
+                ![Untitled](./img/ch2.2-14.png)
                 
 
 **CSMA / CD**
@@ -145,7 +145,7 @@
     - **충돌 발생↑ ⇒ 재전송↑ ⇒ 네트워크 성능↓**
     - **공유 매체 길이**↑,  **프레임 전송 지연**↑ ⇒ **충돌 발생 가능성** **↑**
 
-![Untitled](/img/ch2.2-15.png)
+![Untitled](./img/ch2.2-15.png)
 
 - **데이터 전송 과정**
     1. 호스트 5 → 호스트 1 데이터 전송, 타 호스트 공유버스 사용여부 확인 (a) 
@@ -177,35 +177,35 @@
     - 사용자가 한 장소에서 다른 장소로 이동하며 중단 없이 네트워크 연결 가능
     
 
-![Untitled](/img/ch2.2-16.png)
+![Untitled](./img/ch2.2-16.png)
 
 **이더넷 프레임**
 
 - 이더넷 : 근거리 통신망(LAN) 환경에서 활용되는 네트워크 구성 방식 (IEEE802.3)
 
-![Untitled](/img/ch2.2-17.png)
+![Untitled](./img/ch2.2-17.png)
 
 - 상위 계층에서 내려온 프레임을 상대 호스트에 전송하기 위해서는 정의된 프레임 구조에 맞게 포장해야 함 (캡슐화)
 - 이더넷 프레임 구조
     
-    ![Untitled](/img/ch2.2-18.png)
+    ![Untitled](./img/ch2.2-18.png)
     
     +) MAC 주소 : 각 장치의 네트워크 연결 장치인 LAN카드를 구별하기 위한 식별번호
     
 
 **계층 간 데이터 송수신 과정**
 
-![Untitled](/img/ch2.2-19.png)
+![Untitled](./img/ch2.2-19.png)
 
 - 송신 호스트가 보낸 request 데이터에 대해 각 계층에서 캡슐화 과정을 거치고 링크 계층에서 물리적으로 전송 후 비캡슐화 과정을 통해 원래의 데이터로 복구하여 수신 호스트에게 전송됨
 
 - 캡슐화 과정 (송신 호스트 → 서버 : 데이터 송신)
     
-    ![Untitled](/img/ch2.2-20.png)
+    ![Untitled](./img/ch2.2-20.png)
     
 - 비캡슐화 과정 (서버→ 수신 호스트 : 데이터 수신)
     
-    ![Untitled](/img/ch2.2-21.png)
+    ![Untitled](./img/ch2.2-21.png)
     
 
 ## 2.2.2 PDU (Protocol Data Unit)
@@ -218,5 +218,5 @@
     - 인터넷 계층 : 패킷
     - 링크 계층 : 프레임(데이터 링크 계층), 비트(물리 계층)
 
-![Untitled](/img/ch2.2-22.png)
+![Untitled](./img/ch2.2-22.png)
 
