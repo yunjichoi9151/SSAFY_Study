@@ -1,4 +1,4 @@
-# Algorithm & CS Study 💡
+# 💡 Algorithm & CS Study
 
 > Since 2022.07.31
 
