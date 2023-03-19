@@ -7,8 +7,6 @@
 - 스터디 시작 전까지 Pull Request로 문제 풀이 코드 업로드
 - 스터디 다음날 자정 전까지 모든 스터디원의 Pull Request에 Code Review
 
----
-
 ## 👨‍💻 Collaborator
 
 | 이름   | GitHub                                         |
@@ -43,8 +41,6 @@
 
 Thanks to : 이해건([@Supreme-ignorance](https://github.com/Supreme-ignorance))
 
----
-
 ## ✨ Pull Request & Commit Message Rule
 ### Pull Request
 - **[Website] Topic Date Name(Initials)**
@@ -58,8 +54,6 @@ Thanks to : 이해건([@Supreme-ignorance](https://github.com/Supreme-ignorance)
 - [PRGRMS] : [Programmers](https://programmers.co.kr/)
 #### Topic
 - 백준 알고리즘 분류(https://www.acmicpc.net/problem/tags) 기준으로 작성
-
----
 
 ## 📅 Schedule
 
