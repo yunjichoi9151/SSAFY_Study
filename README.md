@@ -55,7 +55,7 @@ Thanks to : 이해건([@Supreme-ignorance](https://github.com/Supreme-ignorance)
 #### Topic
 - 백준 알고리즘 분류(https://www.acmicpc.net/problem/tags) 기준으로 작성
 
-## 📅 Schedule
+## 📅 Algorithm Schedule
 
 | **Date** | **Topic**          | **Problem**                                                   | **Website** |
 | -------- | ------------------- | ------------------------------------------------------------ | ------------- |
