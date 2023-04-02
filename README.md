@@ -48,11 +48,11 @@ Thanks to : 이해건([@Supreme-ignorance](https://github.com/Supreme-ignorance)
 ### Commit Message
 - **[Website] Topic Date Name(Initials)**
 - ex) [BOJ] BFS, DFS 22.09.18 CYJ
-#### Website
+### Website
 - [BOJ] : [Baekjoon](https://www.acmicpc.net/)
 - [SWEA] : [SW Expert Academy](https://swexpertacademy.com/main/main.do)
 - [PRGRMS] : [Programmers](https://programmers.co.kr/)
-#### Topic
+### Topic
 - 백준 알고리즘 분류(https://www.acmicpc.net/problem/tags) 기준으로 작성
 
 ## 📅 Algorithm Schedule
